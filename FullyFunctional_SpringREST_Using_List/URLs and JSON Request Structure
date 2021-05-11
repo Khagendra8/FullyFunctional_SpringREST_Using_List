@@ -1,0 +1,23 @@
+Github link = https://github.com/Java-Techie-jt/spring-boot-crud-example
+
+1)GET	-->	http://localhost:5555/home
+2)GET	-->	http://localhost:5555/courses	 
+3)POST---> http://localhost:5555/courses/
+	{
+		"id": 555,
+		"title": "python",
+		"description": "python learning demo"
+	}
+4) PUT --> 	http://localhost:5555/courses/
+
+    {
+		"id": 555,
+		"title": "pyt",
+		"description": "python learning demo..."
+	}
+	
+5)DELETE---> http://localhost:5555/courses/123
+
+	
+    
+    
